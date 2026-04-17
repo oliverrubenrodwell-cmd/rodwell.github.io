@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliver Rodwell. — Photography</title>
+  <meta name="description" content="Portrait photography by Oliver Rodwell. Capturing the stunning imperfections of reality.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#hero" class="brand">OLIVER RODWELL.</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+  </header>
+
+  <!-- NAV OVERLAY -->
+  <nav class="nav-overlay" aria-hidden="true">
+    <ul class="nav-list">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#family">Family</a></li>
+      <li><a href="#candid">Candid</a></li>
+      <li><a href="#love">Love</a></li>
+      <li><a href="#self-portraits">Self-Portraits</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-image">
+      <img src="images/hero.jpg" alt="Oliver Rodwell — portrait in profile against woodland">
+    </div>
+  </section>
+
+  <!-- STATEMENT -->
+  <section class="statement">
+    <p>Working on detecting deepfakes taught me the value of real photography and the beauty inherent in capturing the stunning imperfections of reality.</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2 class="about-heading">About</h2>
+    <div class="about-content">
+      <p>My professional life in Product, working primarily within deepfake detection for facial imagery with a particular tilt towards Agentic AI applications, led me into discovering a passion for posed portrait photography. A well captured portrait is the idealistic attempt at distilling a person&rsquo;s fullness into a single frame; which even when unattained contains qualities which can never be replicated by the fraudulent generations of artificial intelligence.</p>
+      <p>Within portraiture I focus on working with individuals to curate a scene which captures the productive essences of life which they orient themselves towards: family, work, passions, homes, lovers, moments.</p>
+      <p class="about-note">I return to subjects only a few frames from the hundreds captured in a single shoot.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY: FAMILY -->
+  <section id="family" class="gallery-section">
+    <h2 class="gallery-heading">Family</h2>
+    <div class="carousel" data-carousel>
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/family/01.jpg" alt="Mother and baby at a table" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/family/02.jpg" alt="Mother holding baby close" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/family/03.jpg" alt="Mother and baby portrait in black and white" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/family/04.jpg" alt="Baby held up in the air by father" loading="lazy"></div>
+      </div>
+      <button class="carousel-btn carousel-btn--prev" aria-label="Previous">&larr;</button>
+      <button class="carousel-btn carousel-btn--next" aria-label="Next">&rarr;</button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY: CANDID -->
+  <section id="candid" class="gallery-section">
+    <h2 class="gallery-heading">Candid</h2>
+    <div class="carousel" data-carousel>
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/candid/01.jpg" alt="Woman seen through a bakery window" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/candid/02.jpg" alt="Father holding baby in black and white" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/candid/03.jpg" alt="Woman in sunglasses, black and white profile" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/candid/04.jpg" alt="Woman walking into woodland" loading="lazy"></div>
+      </div>
+      <button class="carousel-btn carousel-btn--prev" aria-label="Previous">&larr;</button>
+      <button class="carousel-btn carousel-btn--next" aria-label="Next">&rarr;</button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY: LOVE -->
+  <section id="love" class="gallery-section">
+    <h2 class="gallery-heading">Love</h2>
+    <div class="carousel" data-carousel>
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/love/01.jpg" alt="Couple together in the park" loading="lazy"></div>
+      </div>
+      <button class="carousel-btn carousel-btn--prev" aria-label="Previous">&larr;</button>
+      <button class="carousel-btn carousel-btn--next" aria-label="Next">&rarr;</button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY: SELF-PORTRAITS -->
+  <section id="self-portraits" class="gallery-section">
+    <h2 class="gallery-heading">Self-Portraits</h2>
+    <div class="carousel" data-carousel>
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/self-portraits/01.jpg" alt="Oliver Rodwell portrait in woodland" loading="lazy"></div>
+        <div class="carousel-slide"><img src="images/self-portraits/02.jpg" alt="Oliver Rodwell portrait by a gate" loading="lazy"></div>
+      </div>
+      <button class="carousel-btn carousel-btn--prev" aria-label="Previous">&larr;</button>
+      <button class="carousel-btn carousel-btn--next" aria-label="Next">&rarr;</button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="brand-footer">OLIVER RODWELL.</p>
+    <p class="copyright">&copy; 2026 Oliver Rodwell. All rights reserved.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/carousel.js"></script>
+</body>
+</html>
